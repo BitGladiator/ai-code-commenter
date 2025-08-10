@@ -12,6 +12,11 @@ AI Code Commenter is a simple command-line tool that uses AI to generate clear, 
 
 ---
 
+## ScreenShots
+**CLI Interface**
+![Preview](./images/Screenshot1.png)
+
+---
 ## 📂 Project Structure
 ```
 

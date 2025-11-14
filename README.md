@@ -1,4 +1,4 @@
-# ✨ AI Code Commenter
+#AI Code Commenter
 
 <div align="center">
 
@@ -15,28 +15,28 @@
 
 ---
 
-## 🎯 What is AI Code Commenter?
+##What is AI Code Commenter?
 
 AI Code Commenter is an intelligent command-line tool that leverages cutting-edge AI models to automatically generate comprehensive, contextual comments for your codebase. Say goodbye to undocumented code and hello to crystal-clear, maintainable projects.
 
-### 🌟 Why Choose AI Code Commenter?
+###Why Choose AI Code Commenter?
 
-- **🧠 Intelligent Analysis**: Uses advanced AI models to understand code context and purpose
-- **🚀 Lightning Fast**: Comment entire files in seconds
-- **🔄 Real-time Watching**: Automatically comments files as you code
-- **🌍 Universal Language Support**: Works with 15+ programming languages
-- **🎨 Clean Output**: Generates professional, readable comments
-- **⚡ Zero Dependencies**: Simple bash script with minimal requirements
+- **Intelligent Analysis**: Uses advanced AI models to understand code context and purpose
+- **Lightning Fast**: Comment entire files in seconds
+- **Real-time Watching**: Automatically comments files as you code
+- **Universal Language Support**: Works with 15+ programming languages
+- **Clean Output**: Generates professional, readable comments
+- **Zero Dependencies**: Simple bash script with minimal requirements
 
 ---
 
-## 🚀 Features
+##Features
 
 <table>
 <tr>
 <td width="50%">
 
-### 🎯 **Smart Commenting**
+###**Smart Commenting**
 - Line-by-line intelligent analysis
 - Context-aware explanations
 - Preserves original code semantics
@@ -45,7 +45,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 </td>
 <td width="50%">
 
-### 🔄 **Real-time Processing**
+###**Real-time Processing**
 - Watch mode for live commenting
 - Instant file change detection
 - Seamless workflow integration
@@ -56,7 +56,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 <tr>
 <td>
 
-### 🌐 **Multi-Language Support**
+###**Multi-Language Support**
 - Python, JavaScript, TypeScript
 - C++, Java, Go, Rust
 - PHP, Ruby, Swift, Kotlin
@@ -66,7 +66,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 </td>
 <td>
 
-### 🤖 **AI Model Flexibility**
+###**AI Model Flexibility**
 - Multiple OpenRouter models
 - GPT-4, Claude, Gemini support
 - Custom model selection
@@ -78,7 +78,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 
 ---
 
-## 📸 Preview
+##Preview
 
 <div align="center">
 
@@ -87,7 +87,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 </div>
 
 ```python
-# 🔴 BEFORE: Cryptic code
+# BEFORE: Cryptic code
 def fibonacci(n):
     a, b = 0, 1
     for _ in range(n):
@@ -96,7 +96,7 @@ def fibonacci(n):
 ```
 
 ```python
-# 🟢 AFTER: Self-documenting code
+# AFTER: Self-documenting code
 def fibonacci(n):  # define a function named fibonacci that takes one parameter n
     a, b = 0, 1  # initialize two variables: a holds the "current" Fibonacci number (0), b holds the "next" (1)
     for _ in range(n):  # loop exactly n times; '_' is used because the loop index itself is not needed
@@ -108,7 +108,7 @@ def fibonacci(n):  # define a function named fibonacci that takes one parameter 
 
 ---
 
-## 🚀 Quick Start
+##Quick Start
 
 ### Prerequisites
 
@@ -124,17 +124,17 @@ curl >= 7.0
 ### Installation
 
 ```bash
-# 1️⃣ Clone the repository
+# Clone the repository
 git clone https://github.com/yourusername/ai-code-commenter.git
 cd ai-code-commenter/scripts
 
-# 2️⃣ Set up your OpenRouter API key
+# Set up your OpenRouter API key
 echo "OPENROUTER_API_KEY=your_api_key_here" > ../.env
 
-# 3️⃣ Make the script executable
+# Make the script executable
 chmod +x commenter.sh
 
-# 4️⃣ You're ready to go! 🎉
+# You're ready to go! 
 ```
 
 ### Get Your API Key
@@ -146,7 +146,7 @@ chmod +x commenter.sh
 
 ---
 
-## 💻 Usage
+##Usage
 
 ### Basic Usage
 
@@ -178,12 +178,12 @@ chmod +x commenter.sh
 
 ---
 
-## 🎨 Examples
+##Examples
 
 ### Python Example
 
 <details>
-<summary><b>🐍 Prime Number Checker</b></summary>
+<summary><b>Prime Number Checker</b></summary>
 
 **Input:**
 ```python
@@ -214,7 +214,7 @@ def is_prime(num):  # define a function to test whether num is a prime number
 ### JavaScript Example
 
 <details>
-<summary><b>🚀 Async Data Fetcher</b></summary>
+<summary><b>Async Data Fetcher</b></summary>
 
 **Input:**
 ```javascript
@@ -236,24 +236,24 @@ async function fetchUserData(userId) {  // define an asynchronous function to re
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 ai-code-commenter/
-├── 📂 input/                    # Your original code files
-├── 📂 output/                   # AI-commented output files
-├── 📂 scripts/
-│   └── 🔧 commenter.sh         # Main commenting engine
-├── 📂 images/
-│   └── 🖼️ screenshot.png        # Preview images
-├── 📄 .env                      # API configuration
-├── 📄 .gitignore               # Git ignore rules
-└── 📖 README.md                # This file
+├── input/                    # Your original code files
+├── output/                   # AI-commented output files
+├──  scripts/
+│   └──  commenter.sh         # Main commenting engine
+├──  images/
+│   └──  screenshot.png        # Preview images
+├──  .env                      # API configuration
+├──  .gitignore               # Git ignore rules
+└──  README.md                # This file
 ```
 
 ---
 
-## ⚙️ Configuration
+##Configuration
 
 ### Environment Variables
 
@@ -292,7 +292,7 @@ VERBOSITY=detailed  # minimal, standard, detailed, verbose
 ### Common Issues
 
 <details>
-<summary><b>❌ "OPENROUTER_API_KEY not set" Error</b></summary>
+<summary><b>"OPENROUTER_API_KEY not set" Error</b></summary>
 
 **Solution:**
 1. Verify your `.env` file exists in the project root
@@ -310,7 +310,7 @@ OPENROUTER_API_KEY = sk-or-v1-your-key-here
 </details>
 
 <details>
-<summary><b>🔄 Watch Mode Not Working</b></summary>
+<summary><b>Watch Mode Not Working</b></summary>
 
 **Solution:**
 Install `inotify-tools` on Linux:
@@ -325,7 +325,7 @@ sudo yum install inotify-tools
 </details>
 
 <details>
-<summary><b>📝 Empty Output Files</b></summary>
+<summary><b>Empty Output Files</b></summary>
 
 **Solution:**
 1. Check your internet connection
@@ -337,15 +337,15 @@ sudo yum install inotify-tools
 
 ---
 
-## 🤝 Contributing
+##Contributing
 
 We welcome contributions! Here's how you can help:
 
-1. **🍴 Fork the repository**
-2. **🌿 Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **💾 Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **📤 Push to branch**: `git push origin feature/amazing-feature`
-5. **🔄 Open a Pull Request**
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Commit your changes**: `git commit -m 'Add amazing feature'`
+4. **Push to branch**: `git push origin feature/amazing-feature`
+5. **Open a Pull Request**
 
 ### Development Setup
 
@@ -364,13 +364,13 @@ cd scripts
 
 ---
 
-## 📄 License
+##License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##Acknowledgments
 
 - **OpenRouter** for providing access to multiple AI models
 - **The Open Source Community** for inspiration and support
@@ -380,10 +380,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ Star this repo if it helped you write better code! ⭐**
+**Star this repo if it helped you write better code!**
 
 Made with ❤️ by developers, for developers
 
 [Report Bug](https://github.com/bitgladiator/ai-code-commenter/issues) • [Request Feature](https://github.com/bitgladiator/ai-code-commenter/issues) • [Join Discussion](https://github.com/bitgladiator/ai-code-commenter/discussions)
 
 </div>
+

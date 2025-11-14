@@ -1,4 +1,4 @@
-#AI Code Commenter
+# AI Code Commenter
 
 <div align="center">
 
@@ -15,11 +15,11 @@
 
 ---
 
-##What is AI Code Commenter?
+## What is AI Code Commenter?
 
 AI Code Commenter is an intelligent command-line tool that leverages cutting-edge AI models to automatically generate comprehensive, contextual comments for your codebase. Say goodbye to undocumented code and hello to crystal-clear, maintainable projects.
 
-###Why Choose AI Code Commenter?
+### Why Choose AI Code Commenter?
 
 - **Intelligent Analysis**: Uses advanced AI models to understand code context and purpose
 - **Lightning Fast**: Comment entire files in seconds
@@ -30,13 +30,13 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 
 ---
 
-##Features
+## Features
 
 <table>
 <tr>
 <td width="50%">
 
-###**Smart Commenting**
+### **Smart Commenting**
 - Line-by-line intelligent analysis
 - Context-aware explanations
 - Preserves original code semantics
@@ -45,7 +45,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 </td>
 <td width="50%">
 
-###**Real-time Processing**
+### **Real-time Processing**
 - Watch mode for live commenting
 - Instant file change detection
 - Seamless workflow integration
@@ -56,7 +56,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 <tr>
 <td>
 
-###**Multi-Language Support**
+### **Multi-Language Support**
 - Python, JavaScript, TypeScript
 - C++, Java, Go, Rust
 - PHP, Ruby, Swift, Kotlin
@@ -66,7 +66,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 </td>
 <td>
 
-###**AI Model Flexibility**
+### **AI Model Flexibility**
 - Multiple OpenRouter models
 - GPT-4, Claude, Gemini support
 - Custom model selection
@@ -78,7 +78,7 @@ AI Code Commenter is an intelligent command-line tool that leverages cutting-edg
 
 ---
 
-##Preview
+## Preview
 
 <div align="center">
 
@@ -108,7 +108,7 @@ def fibonacci(n):  # define a function named fibonacci that takes one parameter 
 
 ---
 
-##Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -146,7 +146,7 @@ chmod +x commenter.sh
 
 ---
 
-##Usage
+## Usage
 
 ### Basic Usage
 
@@ -178,7 +178,7 @@ chmod +x commenter.sh
 
 ---
 
-##Examples
+## Examples
 
 ### Python Example
 
@@ -236,7 +236,7 @@ async function fetchUserData(userId) {  // define an asynchronous function to re
 
 ---
 
-##Project Structure
+## Project Structure
 
 ```
 ai-code-commenter/
@@ -253,7 +253,7 @@ ai-code-commenter/
 
 ---
 
-##Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -287,7 +287,7 @@ VERBOSITY=detailed  # minimal, standard, detailed, verbose
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -337,7 +337,7 @@ sudo yum install inotify-tools
 
 ---
 
-##Contributing
+## Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -364,13 +364,13 @@ cd scripts
 
 ---
 
-##License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-##Acknowledgments
+## Acknowledgments
 
 - **OpenRouter** for providing access to multiple AI models
 - **The Open Source Community** for inspiration and support
@@ -387,4 +387,5 @@ Made with ❤️ by developers, for developers
 [Report Bug](https://github.com/bitgladiator/ai-code-commenter/issues) • [Request Feature](https://github.com/bitgladiator/ai-code-commenter/issues) • [Join Discussion](https://github.com/bitgladiator/ai-code-commenter/discussions)
 
 </div>
+
 
